@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:layout_marginTop="20dp"
+    android:padding="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".biodata">
+
+    <TextView
+        android:id="@+id/tv_halo"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:gravity="center_horizontal"
+        android:text="@string/halo"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:gravity="center_horizontal"
+        android:text="@string/name"
+        />
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="text"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:gravity="center_horizontal"
+        android:text="@string/nim"
+        />
+
+    <EditText
+        android:id="@+id/edt_nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="number"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_prodi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:gravity="center_horizontal"
+        android:text="@string/prodi"
+        />
+
+    <EditText
+        android:id="@+id/edt_prodi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="text"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_halo"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:text="@string/proses"
+        android:textAlignment="center" />
+
+</LinearLayout>

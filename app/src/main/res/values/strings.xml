@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Gabungan</string>
+    <string name="halodepan">Latihan Gabungan</string>
+    <string name="biodata">Biodata Mahasiswa</string>
+    <string name="halo">BANGUNG RUANG PADA KUBUS</string>
+    <string name="proses">SUBMIT</string>
+    <string name="nim">NIM</string>
+    <string name="name">NAMA</string>
+    <string name="prodi">PRODI</string>
+    <string name="kalkulator">Kalkulator Sederhana</string>
+    <string name="tasbih">Tasbih Suci</string>
+    <string name="satu">0</string>
+    <string name="add_number">ADD Number</string>
+    <string name="halokubus">LUAS DAN VOLUME BANGUN RUANG KUBUS</string>
+    <string name="halokerucut">LUAS DAN VOLUME BANGUN RUANG KERUCUT</string>
+    <string name="halobola">LUAS DAN VOLUME BANGUN RUANG BOLA</string>
+    <string name="haloruang">BANGUN RUANG</string>
+    <string name="sisi">Masukkan Sisi Kubus</string>
+    <string name="hitung">HITUNG</string>
+    <string name="hitungk">HITUNG</string>
+    <string name="hitungb">HITUNG</string>
+    <string name="hasilluas">Luas Ruang Kubus</string>
+    <string name="hasilvolume">Volume Ruang Kubus</string>
+    <string name="kubus">Ruang Kubus</string>
+    <string name="kerucut">Ruang kerucut</string>
+    <string name="bola">Ruang Bola</string>
+    <string name="r">Masukkan Jari Jari Kerucut</string>
+    <string name="s">Masukkan Sisi Kerucut</string>
+    <string name="t">Masukkan Tinggi Kerucut</string>
+    <string name="hasilluasSkerucut">Luas Selimut Kerucut</string>
+    <string name="hasilluasPkerucut">Luas Permukaan Kerucut</string>
+    <string name="hasilvolumekerucut">Volume Kerucut</string>
+    <string name="jari">Masukkan Jari Jari Bola</string>
+    <string name="hasilluasbola">Luas Bola</string>
+    <string name="hasilvolumebola">Volume Bola</string>
+    <string name="halobawah">Create by Natasya Salsabila</string>
+
+</resources>

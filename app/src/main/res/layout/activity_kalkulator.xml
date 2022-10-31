@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:layout_marginTop="20dp"
+    android:padding="25dp"
+    tools:context=".kalkulator">
+
+    <TextView
+        android:id="@+id/tv_ruang"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:gravity="center_horizontal"
+        android:text="@string/haloruang"
+        android:padding="25dp"
+        android:textSize="19sp" />
+
+    <Button android:id="@+id/btn_kubus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/kubus" />
+
+    <Button android:id="@+id/btn_kerucut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/kerucut" />
+
+    <Button android:id="@+id/btn_bola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/bola" />
+
+</LinearLayout>

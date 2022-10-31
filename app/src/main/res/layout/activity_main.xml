@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:layout_marginTop="20dp"
+    android:padding="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_depan"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:gravity="center_horizontal"
+        android:text="@string/halodepan"
+        android:padding="25dp"
+        android:textSize="19sp" />
+
+    <Button android:id="@+id/btn_biodata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/biodata" />
+
+    <Button android:id="@+id/btn_kalkulator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/kalkulator" />
+
+    <Button android:id="@+id/btn_tasbih"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/tasbih" />
+
+    <TextView
+        android:id="@+id/tv_bawah"
+        android:layout_width="match_parent"
+        android:layout_height="367dp"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="@string/halobawah"
+        android:textSize="19sp" />
+
+</LinearLayout>

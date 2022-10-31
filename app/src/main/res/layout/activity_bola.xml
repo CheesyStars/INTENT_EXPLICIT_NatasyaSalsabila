@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:padding="16dp"
+    tools:context=".bola">
+
+    <TextView
+        android:id="@+id/tv_bola"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:gravity="center_horizontal"
+        android:text="@string/halobola"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jari"
+        />
+    <EditText
+        android:id="@+id/edt_jari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1"
+        />
+
+    <Button android:id="@+id/btnCalculateBola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/hitungb" />
+
+    <EditText
+        android:id="@+id/tv_luasbola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="@string/hasilluasbola"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/tv_volumebola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="@string/hasilvolumebola"
+        android:textSize="20sp"
+        />
+
+
+</LinearLayout>
